@@ -1,0 +1,77 @@
+
+body {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	
+	background-repeat: no-repeat, repeat;
+}
+
+#myCanvas {
+    width:  80%;
+    height: 72%;
+	z-index: 1;
+	position: absolute;
+	top: 2%;
+	}
+
+.bg {
+	width:  100%;
+	height: 100%;
+	z-index: 4;
+	position: absolute;
+	top: 0;
+	
+}
+
+div#panel {
+	width: 90vmin;
+	height: 50vmin;
+	position: relative;
+	border:5px solid white;
+	box-shadow:  -10px 16px 20px 0 black;
+	
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctr_panel {
+	z-index: 5;
+	background-color: white;
+	border: 8px solid white;
+	border-radius: 4px;
+	box-shadow:  -5px 8px 10px 0 black;
+	
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.up-down-arrows {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.up-down-arrows > button {
+	
+	display: block;
+	margin: auto;
+	margin-top:15px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.left-right-arrows > button {
+	
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}

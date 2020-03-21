@@ -1,0 +1,47 @@
+
+body {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	
+	background-repeat: no-repeat, repeat;
+}
+
+#myCanvas {
+    width:  80%;
+    height: 72%;
+	z-index: 1;
+	position: absolute;
+	top: 2%;
+	}
+
+.bg {
+	width:  95%;
+	height: 95%;
+	z-index: 4;
+	border:5px solid white;
+	box-shadow:  -10px 16px 20px 0 black;
+	position: absolute;
+	
+	
+}
+
+div#panel {
+	width: 180vmin;
+	height: 80vmin;
+	position: relative;
+	border:0px solid black;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctr_panel {
+	z-index: 5;
+	background-color: white;
+	border: 8px solid white;
+	border-radius: 4px;
+	box-shadow:  -5px 8px 10px 0 black;
+}
